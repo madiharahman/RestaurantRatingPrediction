@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About - Madiha Rahman</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 30px;
+        font-family: Arial, sans-serif;
+        background: #2c3e50;
+        color: #ecf0f1;
+        font-size: 18px;
+      }
+
+      .navibar {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        z-index: 2;
+      }
+
+      .navibar a img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .navibar a img:hover {
+        transform: scale(1.1);
+      }
+
+      .container {
+        max-width: 1300px;
+        margin: auto;
+        background: #34495e;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 28px;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+      }
+
+      .social-icons a img {
+        width: 50px;
+        transition: transform 0.3s ease;
+      }
+
+      .social-icons a img:hover {
+        transform: scale(1.2);
+      }
+
+      p {
+        line-height: 1.6;
+        font-size: 18px;
+        color: #ecf0f1;
+      }
+
+      .quote {
+        text-align: center;
+        font-style: italic;
+        margin-top: 30px;
+        color: #bdc3c7;
+        font-size: 20px;
+      }
+
+      ul {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: #ecf0f1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #bdc3c7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navibar">
+      <a href="/"
+        ><img src="static/icons/home.png" alt="Home" title="Home"
+      /></a>
+      <a href="/dashboard"
+        ><img
+          src="static/icons/dashboard.png"
+          alt="Dashboard"
+          title="Dashboard"
+      /></a>
+      <a href="/predict"
+        ><img src="static/icons/predict.png" alt="Predict" title="Predict"
+      /></a>
+      <a href="/about"
+        ><img src="static/icons/about.png" alt="About" title="About"
+      /></a>
+    </div>
+
+    <div class="container">
+      <h1>
+        Optimizing Decision-Making in E-Commerce using Machine Learning and Data
+        Analytics through a Web-Enabled Predictive System
+      </h1>
+
+      <p>
+        <strong>Problem Statement: </strong><br />
+        This project aims to perform a detailed Exploratory Data Analysis (EDA)
+        on a Zomato restaurant dataset and build a Machine Learning model
+        capable of predicting restaurant ratings based on various features,
+        helping restaurants enhance their services and customer satisfaction.
+      </p>
+
+      <p><strong>Objectives: </strong><br /></p>
+      <ul>
+        <li>
+          To assist users in choosing top-rated restaurants based on predictive
+          analysis.
+        </li>
+        <li>
+          To help restaurant owners understand factors affecting their ratings.
+        </li>
+        <li>
+          To leverage machine learning for the accurate prediction of restaurant
+          performance.
+        </li>
+        <li>To visualize trends and insights using dynamic dashboards.</li>
+      </ul>
+
+      <p>
+        <strong>Industry Context and Background: </strong><br />
+        The Indian restaurant industry has rapidly evolved, with an increasing
+        trend towards online food ordering platforms like Zomato. This project
+        analyzes patterns to assist businesses in better targeting their
+        audience and optimizing offerings.
+      </p>
+
+      <p>
+        <strong>Source of Data:</strong><br />
+        Dataset sourced from Kaggle — a curated version of restaurant
+        information originally scraped from Zomato.
+      </p>
+
+      <p>
+        <strong>Purpose of Study:</strong><br />
+        To analyze key factors affecting restaurant ratings, such as:
+      </p>
+      <ul>
+        <li>Location and demography</li>
+        <li>Price range</li>
+        <li>Cuisines served</li>
+        <li>Theme-based restaurant concepts</li>
+        <li>Customer preferences in specific neighborhoods</li>
+      </ul>
+
+      <p>
+        <strong>Technologies Used:</strong><br />
+        Backend: Python (Flask)<br />
+        Frontend: HTML, CSS, JavaScript<br />
+        Data Science: Jupyter Notebook, Scikit-learn<br />
+        Dashboard: Power BI<br />
+        Development Environment: Visual Studio Code
+      </p>
+
+      <p>
+        <strong>Results:</strong><br />
+        Successfully built a restaurant rating prediction system integrated into
+        a Flask-based web application, complemented with an interactive
+        dashboard providing rich data visualizations and insights.
+      </p>
+
+      <p>
+        <strong>Developer Info: </strong><br />
+        I am Madiha Rahman, currently pursuing my Master's in Data Science
+        (2023–2025) at Aligarh Muslim University, after completing my B.Sc.
+        (Hons.) in Statistics (2020–2023) from the same institution. I am
+        passionate about creating intelligent solutions that drive informed
+        decision-making.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/madiharahman" target="_blank">
+          <img src="static/icons/github.png" alt="GitHub" title="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/madiharahman14/" target="_blank">
+          <img
+            src="static/icons/linkedin.png"
+            alt="LinkedIn"
+            title="LinkedIn"
+          />
+        </a>
+        <a
+          href="https://madiharahman.github.io/website.github.io/"
+          target="_blank"
+        >
+          <img
+            src="static/icons/website.png"
+            alt="Portfolio"
+            title="Portfolio Website"
+          />
+        </a>
+      </div>
+
+      <p class="quote">
+        "The purpose of computation is insight, not numbers." <br />
+        — Richard Hamming
+      </p>
+    </div>
+  </body>
+</html>
