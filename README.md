@@ -95,6 +95,10 @@ The best-performing model is selected automatically based on the R² score.
 
 Successfully built a **restaurant rating prediction system** integrated into a Flask-based web application, complemented with an interactive **Power BI dashboard** providing rich data visualizations and insights.
 
+## 🔗 **Live Demo:** 
+
+[View the Deployed Web App on Render](https://restaurantratingprediction.onrender.com)
+
 ## 👩‍💻 Author
 
 **Madiha Rahman**  
